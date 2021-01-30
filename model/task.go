@@ -10,12 +10,14 @@ type Task struct{
 	Priority int32 `json:"priority"`
 	CreatedAt time.Time `json:"created_at"`
 	UpdatedAt time.Time `json:"updated_at"`
+	Status int32 `json:"status"`
+	Owner string `json:owner`
 }
 
-type request struct{
+type Request struct{
 
 }
 
-type response struct{
+type Response struct{
 
 }
